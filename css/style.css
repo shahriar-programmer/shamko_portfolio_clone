@@ -991,11 +991,16 @@ form{
     display: none;
   }
 
-  .nav_menu{
-    display: none;
-  }
-
   .navbar .logo img {
     width: 70%;
+  }
+
+  .navbar{
+    padding: 1%;
+    align-items: center;
+  }
+
+  .nav_menu{
+    display: none;
   }
 }
