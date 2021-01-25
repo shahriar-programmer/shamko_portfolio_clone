@@ -994,4 +994,8 @@ form{
   .nav_menu{
     display: none;
   }
+
+  .navbar .logo img {
+    width: 50%;
+  }
 }
