@@ -722,6 +722,7 @@ svg circle:nth-child(2) {
   flex-direction: column;
   padding: 7%;
   align-items: center;
+  /* border: 3px solid green; */
 }
 
 .contact_title {
@@ -745,6 +746,7 @@ svg circle:nth-child(2) {
 
 form{
   width: 100%;
+  /* border: 3px solid green; */
 }
 
 .contact_form {
@@ -752,6 +754,7 @@ form{
   flex-direction: column;
   align-items: center;
   row-gap: 16px;
+  /* border: 3px solid green; */
 }
 
 .contact_form .form_row {
@@ -763,7 +766,7 @@ form{
 
 .form_row input {
   height: auto;
-  width: auto;
+  width: 100%;
   background-color: #242426;
   border: none;
   outline: none;
@@ -773,7 +776,7 @@ form{
 }
 
 .form_row textarea {
-  width: auto;
+  width: 100%;
   height: auto;
   background-color: #242424;
   border: none;
@@ -944,6 +947,7 @@ form{
 
   form{
     width: 100%;
+    border: 1px solid;
   }
 
   .contact_form{
